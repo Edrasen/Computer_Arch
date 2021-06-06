@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Jun  6 16:30:08 2021
+# Process ID: 2520
+# Current directory: D:/ESCOM/2020A/ARQUITECTURA/ProyectoFinal/Procesador_Burbuja
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13084 D:\ESCOM\2020A\ARQUITECTURA\ProyectoFinal\Procesador_Burbuja\Procesador_Burbuja.xpr
+# Log file: D:/ESCOM/2020A/ARQUITECTURA/ProyectoFinal/Procesador_Burbuja/vivado.log
+# Journal file: D:/ESCOM/2020A/ARQUITECTURA/ProyectoFinal/Procesador_Burbuja\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ESCOM/2020A/ARQUITECTURA/ProyectoFinal/Procesador_Burbuja/Procesador_Burbuja.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source sim2.tcl
+run all

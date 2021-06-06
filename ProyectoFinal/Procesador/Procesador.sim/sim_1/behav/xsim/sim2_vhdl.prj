@@ -1,0 +1,32 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Procesador.srcs/sources_1/imports/Burbuja Final/components.vhd" \
+"../../../../Procesador.srcs/sources_1/imports/Burbuja Final/Componentes.vhd" \
+"../../../../Procesador.srcs/sources_1/imports/Burbuja Final/Condicion.vhd" \
+"../../../../Procesador.srcs/sources_1/imports/Burbuja Final/Control.vhd" \
+"../../../../Procesador.srcs/sources_1/imports/Burbuja Final/DecoInstruc.vhd" \
+"../../../../Procesador.srcs/sources_1/imports/Burbuja Final/DemuxCodOpera.vhd" \
+"../../../../Procesador.srcs/sources_1/imports/Burbuja Final/DemuxS.vhd" \
+"../../../../Procesador.srcs/sources_1/imports/Burbuja Final/MicrocodFuncion.vhd" \
+"../../../../Procesador.srcs/sources_1/imports/Burbuja Final/MicrocodOperacion.vhd" \
+"../../../../Procesador.srcs/sources_1/imports/Burbuja Final/Mux16.vhd" \
+"../../../../Procesador.srcs/sources_1/imports/Burbuja Final/Mux4.vhd" \
+"../../../../Procesador.srcs/sources_1/imports/Burbuja Final/Nivel.vhd" \
+"../../../../Procesador.srcs/sources_1/imports/Burbuja Final/RegistroEstado.vhd" \
+"../../../../Procesador.srcs/sources_1/imports/Burbuja Final/alu.vhd" \
+"../../../../Procesador.srcs/sources_1/imports/Burbuja Final/archivoReg.vhd" \
+"../../../../Procesador.srcs/sources_1/imports/Burbuja Final/bs.vhd" \
+"../../../../Procesador.srcs/sources_1/imports/Burbuja Final/demux.vhd" \
+"../../../../Procesador.srcs/sources_1/imports/Burbuja Final/extdir.vhd" \
+"../../../../Procesador.srcs/sources_1/imports/Burbuja Final/extsig.vhd" \
+"../../../../Procesador.srcs/sources_1/imports/Burbuja Final/main.vhd" \
+"../../../../Procesador.srcs/sources_1/imports/Burbuja Final/memdatos.vhd" \
+"../../../../Procesador.srcs/sources_1/imports/Burbuja Final/memoProg.vhd" \
+"../../../../Procesador.srcs/sources_1/imports/Burbuja Final/multiplexor2.vhd" \
+"../../../../Procesador.srcs/sources_1/imports/Burbuja Final/pilax.vhd" \
+"../../../../Procesador.srcs/sources_1/imports/Burbuja Final/procesador.vhd" \
+"../../../../Procesador.srcs/sources_1/imports/Burbuja Final/registro.vhd" \
+"../../../../Procesador.srcs/sources_1/imports/Burbuja Final/sim2.vhd" \
+
+# Do not sort compile order
+nosort

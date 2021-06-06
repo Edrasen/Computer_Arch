@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sim2_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="components" />
+            <top_module name="main" />
+            <top_module name="sim2" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="304500fs"></ZoomStartTime>
+      <ZoomEndTime time="419101fs"></ZoomEndTime>
+      <Cursor1Time time="408600fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="116"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/sim2/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim2/clr" type="logic">
+      <obj_property name="ElementShortName">clr</obj_property>
+      <obj_property name="ObjectShortName">clr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim2/PC_salida" type="array">
+      <obj_property name="ElementShortName">PC_salida[15:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_salida[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim2/microInstruccion" type="array">
+      <obj_property name="ElementShortName">microInstruccion[19:0]</obj_property>
+      <obj_property name="ObjectShortName">microInstruccion[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim2/readdata_1" type="array">
+      <obj_property name="ElementShortName">readdata_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">readdata_1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim2/readdata_2" type="array">
+      <obj_property name="ElementShortName">readdata_2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">readdata_2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim2/resultado" type="array">
+      <obj_property name="ElementShortName">resultado[15:0]</obj_property>
+      <obj_property name="ObjectShortName">resultado[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim2/sx" type="array">
+      <obj_property name="ElementShortName">sx[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sx[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim2/mysr" type="logic">
+      <obj_property name="ElementShortName">mysr</obj_property>
+      <obj_property name="ObjectShortName">mysr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim2/clk_period" type="other">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+</wave_config>
