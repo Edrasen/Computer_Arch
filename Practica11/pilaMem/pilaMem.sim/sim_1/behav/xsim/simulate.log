@@ -1,0 +1,14 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+Error: File D:\ESCOM\ARQUITECTURA\Practica11\pilaMem\pilaMem.srcs\sim_1\new\VECTORES.TXT is already at the end of file, nothing to read
+Time: 295 ns  Iteration: 1  Process: /tb_pila_mem/stim_proc  File: D:/ESCOM/ARQUITECTURA/Practica11/pilaMem/pilaMem.srcs/sim_1/new/test.vhd
+Error: STD_LOGIC_1164.HREAD End of string encountered
+Time: 295 ns  Iteration: 1  Process: /tb_pila_mem/stim_proc  File: D:/ESCOM/ARQUITECTURA/Practica11/pilaMem/pilaMem.srcs/sim_1/new/test.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 295 ns  Iteration: 1  Process: /tb_pila_mem/stim_proc  File: D:/ESCOM/ARQUITECTURA/Practica11/pilaMem/pilaMem.srcs/sim_1/new/test.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 295 ns  Iteration: 1  Process: /tb_pila_mem/stim_proc  File: D:/ESCOM/ARQUITECTURA/Practica11/pilaMem/pilaMem.srcs/sim_1/new/test.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 295 ns  Iteration: 1  Process: /tb_pila_mem/stim_proc  File: D:/ESCOM/ARQUITECTURA/Practica11/pilaMem/pilaMem.srcs/sim_1/new/test.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 295 ns  Iteration: 1  Process: /tb_pila_mem/stim_proc  File: D:/ESCOM/ARQUITECTURA/Practica11/pilaMem/pilaMem.srcs/sim_1/new/test.vhd

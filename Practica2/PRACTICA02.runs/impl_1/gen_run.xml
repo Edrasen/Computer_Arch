@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1616552396">
+  <File Type="BITSTR-BMM" Name="Suma8Bits_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Suma8Bits_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Suma8Bits_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="Suma8Bits_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Suma8Bits.tcl"/>
+  <File Type="OPT-TIMING" Name="Suma8Bits_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Suma8Bits_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="Suma8Bits_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Suma8Bits_reports.tcl"/>
+  <File Type="OPT-DRC" Name="Suma8Bits_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Suma8Bits.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Suma8Bits_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Suma8Bits_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Suma8Bits_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Suma8Bits_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Suma8Bits_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Suma8Bits_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Suma8Bits_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Suma8Bits_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Suma8Bits_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Suma8Bits_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Suma8Bits_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="Suma8Bits_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Suma8Bits_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="Suma8Bits.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Suma8Bits_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Suma8Bits_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Suma8Bits_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="Suma8Bits.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="Suma8Bits_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Suma8Bits_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Suma8Bits_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Suma8Bits_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Suma8Bits_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Suma8Bits_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Suma8Bits_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="Suma8Bits.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Suma8Bits_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Suma8Bits_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Suma8Bits_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Suma8Bits_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Suma8Bits_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Suma8Bits_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Suma8Bits_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Suma8Bits_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Suma8Bits_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Suma8Bits_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Suma8Bits_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Suma8Bits_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Suma8Bits_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Suma8Bits_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Suma8Bits_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Suma8Bits_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Suma8Bits_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Suma8Bits_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Suma8Bits_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Suma8Bits_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Suma8Bits_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="Suma8Bits.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Suma8Bits_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="Suma8Bits.rbt"/>
+  <File Type="BITSTR-NKY" Name="Suma8Bits.nky"/>
+  <File Type="PDI-FILE" Name="Suma8Bits.pdi"/>
+  <File Type="RCFI_FILE" Name="Suma8Bits.rcfi"/>
+  <File Type="CFI_FILE" Name="Suma8Bits.cfi"/>
+  <File Type="RNPI_FILE" Name="Suma8Bits.rnpi"/>
+  <File Type="NPI_FILE" Name="Suma8Bits.npi"/>
+  <File Type="RBD_FILE" Name="Suma8Bits.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Suma8Bits.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Suma8Bits.sysdef"/>
+  <File Type="BG-BGN" Name="Suma8Bits.bgn"/>
+  <File Type="BG-DRC" Name="Suma8Bits.drc"/>
+  <File Type="RDI-RDI" Name="Suma8Bits.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/SumaBit.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Suma8Bits.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Suma8Bits"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/PinesSumador.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/PinesSumador.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

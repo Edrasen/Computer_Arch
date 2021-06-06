@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Mar 23 20:14:22 2021
+# Process ID: 2952
+# Current directory: D:/ESCOM/2020A/ARQUITECTURA/Practica2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14572 D:\ESCOM\2020A\ARQUITECTURA\Practica2\PRACTICA02.xpr
+# Log file: D:/ESCOM/2020A/ARQUITECTURA/Practica2/vivado.log
+# Journal file: D:/ESCOM/2020A/ARQUITECTURA/Practica2\vivado.jou
+#-----------------------------------------------------------
+start_guioopen_project D:/ESCOM/2020A/ARQUITECTURA/Practica2/PRACTICA02.xprIINFO: [Project 1-313] Project file moved from 'C:/Users/alain/Desktop/PRACTICA02' since last save.SScanning sources...Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:42 ; elapsed = 00:00:39 . Memory (MB): peak = 855.160 ; gain = 248.617
+update_compile_order -fileset sources_1
+WARNING: [Common 17-9] Error reading message records.
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Mar 23 20:19:56 2021] Launched impl_1...
+Run output will be captured here: D:/ESCOM/2020A/ARQUITECTURA/Practica2/PRACTICA02.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1163.609 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2019.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.206 . Memory (MB): peak = 1820.547 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.207 . Memory (MB): peak = 1820.547 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1820.547 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:52 ; elapsed = 00:00:40 . Memory (MB): peak = 1938.645 ; gain = 1040.375
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 23 22:15:57 2021...

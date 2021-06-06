@@ -1,0 +1,292 @@
+
+*** Running vivado
+    with args -log Main.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Main.tcl
+
+
+****** Vivado v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source Main.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 424.570 ; gain = 126.898
+Command: synth_design -top Main -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11984 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 686.918 ; gain = 237.516
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Main' [D:/ESCOM/ARQUITECTURA/Practica14/Main/Main.srcs/sources_1/new/Main.vhd:39]
+	Parameter tam_Microinstruccion bound to: 20 - type: integer 
+	Parameter tam_OPCODE bound to: 5 - type: integer 
+	Parameter tam_FUNCIONCODE bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'RegFlags' declared at 'D:/ESCOM/ARQUITECTURA/Practica14/Main/Main.srcs/sources_1/imports/Practica14/FlagsReg/FlagsReg.srcs/sources_1/new/RegFlags.vhd:5' bound to instance 'Banderas' of component 'RegFlags' [D:/ESCOM/ARQUITECTURA/Practica14/Main/Main.srcs/sources_1/new/Main.vhd:72]
+INFO: [Synth 8-638] synthesizing module 'RegFlags' [D:/ESCOM/ARQUITECTURA/Practica14/Main/Main.srcs/sources_1/imports/Practica14/FlagsReg/FlagsReg.srcs/sources_1/new/RegFlags.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'RegFlags' (1#1) [D:/ESCOM/ARQUITECTURA/Practica14/Main/Main.srcs/sources_1/imports/Practica14/FlagsReg/FlagsReg.srcs/sources_1/new/RegFlags.vhd:25]
+INFO: [Synth 8-3491] module 'VerifCond' declared at 'D:/ESCOM/ARQUITECTURA/Practica14/Main/Main.srcs/sources_1/imports/Practica14/Condition/Condition.srcs/sources_1/new/VerifCond.vhd:5' bound to instance 'Condicion' of component 'VerifCond' [D:/ESCOM/ARQUITECTURA/Practica14/Main/Main.srcs/sources_1/new/Main.vhd:88]
+INFO: [Synth 8-638] synthesizing module 'VerifCond' [D:/ESCOM/ARQUITECTURA/Practica14/Main/Main.srcs/sources_1/imports/Practica14/Condition/Condition.srcs/sources_1/new/VerifCond.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'VerifCond' (2#1) [D:/ESCOM/ARQUITECTURA/Practica14/Main/Main.srcs/sources_1/imports/Practica14/Condition/Condition.srcs/sources_1/new/VerifCond.vhd:23]
+INFO: [Synth 8-3491] module 'DetectorNivel' declared at 'D:/ESCOM/ARQUITECTURA/Practica14/Main/Main.srcs/sources_1/imports/Practica14/LevelDetect/LevelDetect.srcs/sources_1/new/LevelDetector.vhd:5' bound to instance 'Nivel' of component 'DetectorNivel' [D:/ESCOM/ARQUITECTURA/Practica14/Main/Main.srcs/sources_1/new/Main.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'DetectorNivel' [D:/ESCOM/ARQUITECTURA/Practica14/Main/Main.srcs/sources_1/imports/Practica14/LevelDetect/LevelDetect.srcs/sources_1/new/LevelDetector.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'DetectorNivel' (3#1) [D:/ESCOM/ARQUITECTURA/Practica14/Main/Main.srcs/sources_1/imports/Practica14/LevelDetect/LevelDetect.srcs/sources_1/new/LevelDetector.vhd:13]
+INFO: [Synth 8-3491] module 'DecoIns' declared at 'D:/ESCOM/ARQUITECTURA/Practica14/Main/Main.srcs/sources_1/imports/Practica14/InstructDecoder/InstructDecoder.srcs/sources_1/new/DecoIns.vhd:4' bound to instance 'Deco' of component 'DecoIns' [D:/ESCOM/ARQUITECTURA/Practica14/Main/Main.srcs/sources_1/new/Main.vhd:111]
+INFO: [Synth 8-638] synthesizing module 'DecoIns' [D:/ESCOM/ARQUITECTURA/Practica14/Main/Main.srcs/sources_1/imports/Practica14/InstructDecoder/InstructDecoder.srcs/sources_1/new/DecoIns.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'DecoIns' (4#1) [D:/ESCOM/ARQUITECTURA/Practica14/Main/Main.srcs/sources_1/imports/Practica14/InstructDecoder/InstructDecoder.srcs/sources_1/new/DecoIns.vhd:19]
+INFO: [Synth 8-3491] module 'UC' declared at 'D:/ESCOM/ARQUITECTURA/Practica14/Main/Main.srcs/sources_1/imports/Practica14/CtrlUnit/CtrlUnit.srcs/sources_1/new/UC.vhd:5' bound to instance 'UnidadControl' of component 'UC' [D:/ESCOM/ARQUITECTURA/Practica14/Main/Main.srcs/sources_1/new/Main.vhd:124]
+INFO: [Synth 8-638] synthesizing module 'UC' [D:/ESCOM/ARQUITECTURA/Practica14/Main/Main.srcs/sources_1/imports/Practica14/CtrlUnit/CtrlUnit.srcs/sources_1/new/UC.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'UC' (5#1) [D:/ESCOM/ARQUITECTURA/Practica14/Main/Main.srcs/sources_1/imports/Practica14/CtrlUnit/CtrlUnit.srcs/sources_1/new/UC.vhd:30]
+	Parameter tamWord bound to: 20 - type: integer 
+	Parameter tamDir bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'CodOperROM' declared at 'D:/ESCOM/ARQUITECTURA/Practica14/Main/Main.srcs/sources_1/imports/Practica14/ROM_OpCode/ROM_OpCode.srcs/sources_1/new/CodOperROM.vhd:7' bound to instance 'OP_CODE_ROM' of component 'CodOperROM' [D:/ESCOM/ARQUITECTURA/Practica14/Main/Main.srcs/sources_1/new/Main.vhd:145]
+INFO: [Synth 8-638] synthesizing module 'CodOperROM' [D:/ESCOM/ARQUITECTURA/Practica14/Main/Main.srcs/sources_1/imports/Practica14/ROM_OpCode/ROM_OpCode.srcs/sources_1/new/CodOperROM.vhd:24]
+	Parameter tamWord bound to: 20 - type: integer 
+	Parameter tamDir bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'CodOperROM' (6#1) [D:/ESCOM/ARQUITECTURA/Practica14/Main/Main.srcs/sources_1/imports/Practica14/ROM_OpCode/ROM_OpCode.srcs/sources_1/new/CodOperROM.vhd:24]
+	Parameter tamWord bound to: 20 - type: integer 
+	Parameter tamDir bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'CodFunROM' declared at 'D:/ESCOM/ARQUITECTURA/Practica14/Main/Main.srcs/sources_1/imports/Practica14/ROM_FunCode/ROM_FunCode.srcs/sources_1/new/CodFunROM.vhd:7' bound to instance 'FUNCION_CODE_ROM' of component 'CodFunROM' [D:/ESCOM/ARQUITECTURA/Practica14/Main/Main.srcs/sources_1/new/Main.vhd:152]
+INFO: [Synth 8-638] synthesizing module 'CodFunROM' [D:/ESCOM/ARQUITECTURA/Practica14/Main/Main.srcs/sources_1/imports/Practica14/ROM_FunCode/ROM_FunCode.srcs/sources_1/new/CodFunROM.vhd:24]
+	Parameter tamWord bound to: 20 - type: integer 
+	Parameter tamDir bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'CodFunROM' (7#1) [D:/ESCOM/ARQUITECTURA/Practica14/Main/Main.srcs/sources_1/imports/Practica14/ROM_FunCode/ROM_FunCode.srcs/sources_1/new/CodFunROM.vhd:24]
+INFO: [Synth 8-256] done synthesizing module 'Main' (8#1) [D:/ESCOM/ARQUITECTURA/Practica14/Main/Main.srcs/sources_1/new/Main.vhd:39]
+WARNING: [Synth 8-3331] design VerifCond has unconnected port OV
+WARNING: [Synth 8-3331] design VerifCond has unconnected port N
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 759.773 ; gain = 310.371
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 759.773 ; gain = 310.371
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 759.773 ; gain = 310.371
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 759.773 ; gain = 310.371
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 7     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Main 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+Module RegFlags 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 4     
+Module DetectorNivel 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                1 Bit    Registers := 2     
+Module DecoIns 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 7     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design Main has unconnected port OV
+WARNING: [Synth 8-3331] design Main has unconnected port N
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:29 . Memory (MB): peak = 924.809 ; gain = 475.406
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:29 . Memory (MB): peak = 931.949 ; gain = 482.547
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:29 . Memory (MB): peak = 931.949 ; gain = 482.547
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 931.949 ; gain = 482.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 931.949 ; gain = 482.547
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 931.949 ; gain = 482.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 931.949 ; gain = 482.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 931.949 ; gain = 482.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 931.949 ; gain = 482.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT1 |     2|
+|3     |LUT2 |     3|
+|4     |LUT3 |     2|
+|5     |LUT4 |     3|
+|6     |LUT5 |    10|
+|7     |LUT6 |    24|
+|8     |FDCE |     3|
+|9     |FDPE |     1|
+|10    |IBUF |    14|
+|11    |OBUF |    23|
++------+-----+------+
+
+Report Instance Areas: 
++------+-----------+--------------+------+
+|      |Instance   |Module        |Cells |
++------+-----------+--------------+------+
+|1     |top        |              |    86|
+|2     |  Banderas |RegFlags      |     9|
+|3     |  Nivel    |DetectorNivel |    13|
++------+-----------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 931.949 ; gain = 482.547
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 931.949 ; gain = 482.547
+Synthesis Optimization Complete : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 931.949 ; gain = 482.547
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 944.090 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1038.965 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+30 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:42 ; elapsed = 00:00:52 . Memory (MB): peak = 1038.965 ; gain = 614.395
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1038.965 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/ESCOM/ARQUITECTURA/Practica14/Main/Main.runs/synth_1/Main.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Main_utilization_synth.rpt -pb Main_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jun 30 16:26:38 2020...

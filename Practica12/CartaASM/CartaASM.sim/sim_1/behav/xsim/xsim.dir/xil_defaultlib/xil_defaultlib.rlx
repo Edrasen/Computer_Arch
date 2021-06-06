@@ -1,0 +1,12 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+D:/ESCOM/ARQUITECTURA/Practica12/CartaASM/CartaASM.srcs/sim_1/new/test.vhd,1590615677,vhdl,,,,tb_cartaasm,,,,,,,,
+D:/ESCOM/ARQUITECTURA/Practica12/CartaASM/CartaASM.srcs/sources_1/new/Decodificador.vhd,1590605681,vhdl,,,,decodificador,,,,,,,,
+D:/ESCOM/ARQUITECTURA/Practica12/CartaASM/CartaASM.srcs/sources_1/new/arreglo.vhd,1590593922,vhdl,,,,arreglo,,,,,,,,
+D:/ESCOM/ARQUITECTURA/Practica12/CartaASM/CartaASM.srcs/sources_1/new/carta.vhd,1590611931,vhdl,,,,cartaasm,,,,,,,,
+D:/ESCOM/ARQUITECTURA/Practica12/CartaASM/CartaASM.srcs/sources_1/new/contador.vhd,1590610070,vhdl,,,,contador,,,,,,,,
+D:/ESCOM/ARQUITECTURA/Practica12/CartaASM/CartaASM.srcs/sources_1/new/ctrlUnit.vhd,1590611831,vhdl,,,,ctrlunit,,,,,,,,
+D:/ESCOM/ARQUITECTURA/Practica12/CartaASM/CartaASM.srcs/sources_1/new/multiplexor.vhd,1590605820,vhdl,,,,multiplexor,,,,,,,,
+D:/ESCOM/ARQUITECTURA/Practica12/CartaASM/CartaASM.srcs/sources_1/new/mypacakge.vhd,1590607524,vhdl,D:/ESCOM/ARQUITECTURA/Practica12/CartaASM/CartaASM.srcs/sources_1/new/carta.vhd,,,mypackage,,,,,,,,

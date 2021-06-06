@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../DEMUX.srcs/sources_1/new/Demux.vhd" \
+
+vhdl2008 xil_defaultlib  \
+"../../../../DEMUX.srcs/sim_1/new/test.vhd" \
+
+# Do not sort compile order
+nosort

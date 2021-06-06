@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../LevelDetect.srcs/sources_1/new/LevelDetector.vhd" \
+"../../../../LevelDetect.srcs/sim_1/new/test.vhd" \
+
+# Do not sort compile order
+nosort

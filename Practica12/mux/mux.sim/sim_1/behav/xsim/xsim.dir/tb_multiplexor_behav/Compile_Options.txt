@@ -1,0 +1,1 @@
+-wto "2d674322f28e4e02b4fd2acf6778fa66" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "tb_multiplexor_behav" "xil_defaultlib.tb_multiplexor" -log "elaborate.log" 

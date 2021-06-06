@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/ESCOM/ARQUITECTURA/Practica14/InstructDecoder/InstructDecoder.srcs/sources_1/new/DecoIns.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DecoIns'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/ESCOM/ARQUITECTURA/Practica14/InstructDecoder/InstructDecoder.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_DecoIns'

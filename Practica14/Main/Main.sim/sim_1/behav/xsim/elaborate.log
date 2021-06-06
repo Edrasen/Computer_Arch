@@ -1,0 +1,26 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 3d1a346d8d044c7686fe4d534f5d5e9d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TBUC_behav xil_defaultlib.TBUC -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_textio
+Compiling package xil_defaultlib.componentpackage
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.RegFlags [regflags_default]
+Compiling architecture behavioral of entity xil_defaultlib.VerifCond [verifcond_default]
+Compiling architecture behavioral of entity xil_defaultlib.DetectorNivel [detectornivel_default]
+Compiling architecture behavioral of entity xil_defaultlib.DecoIns [decoins_default]
+Compiling architecture behavioral of entity xil_defaultlib.UC [uc_default]
+Compiling architecture behavioral of entity xil_defaultlib.CodOperROM [codoperrom_default]
+Compiling architecture behavioral of entity xil_defaultlib.CodFunROM [codfunrom_default]
+Compiling architecture behavioral of entity xil_defaultlib.Main [main_default]
+Compiling architecture behavior of entity xil_defaultlib.tbuc
+Built simulation snapshot TBUC_behav

@@ -1,0 +1,1 @@
+-wto "7a1d061911f64d6a9728a6370c231b2b" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "barrelSh_tb_behav" "xil_defaultlib.barrelSh_tb" -log "elaborate.log" 

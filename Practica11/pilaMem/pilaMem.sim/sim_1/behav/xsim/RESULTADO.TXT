@@ -1,0 +1,1 @@
+SP PC   OPCODE RT    RD    RS    Shamt FCODE 

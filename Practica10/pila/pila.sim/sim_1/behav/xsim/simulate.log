@@ -1,0 +1,14 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+Error: File D:\ESCOM\ARQUITECTURA\Practica10\pila\pila.srcs\sim_1\new\VECTORES.txt is already at the end of file, nothing to read
+Time: 235 ns  Iteration: 1  Process: /test/stim_proc  File: D:/ESCOM/ARQUITECTURA/Practica10/pila/pila.srcs/sim_1/new/test.vhd
+Error: STD_LOGIC_1164.HREAD End of string encountered
+Time: 235 ns  Iteration: 1  Process: /test/stim_proc  File: D:/ESCOM/ARQUITECTURA/Practica10/pila/pila.srcs/sim_1/new/test.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 235 ns  Iteration: 1  Process: /test/stim_proc  File: D:/ESCOM/ARQUITECTURA/Practica10/pila/pila.srcs/sim_1/new/test.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 235 ns  Iteration: 1  Process: /test/stim_proc  File: D:/ESCOM/ARQUITECTURA/Practica10/pila/pila.srcs/sim_1/new/test.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 235 ns  Iteration: 1  Process: /test/stim_proc  File: D:/ESCOM/ARQUITECTURA/Practica10/pila/pila.srcs/sim_1/new/test.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 235 ns  Iteration: 1  Process: /test/stim_proc  File: D:/ESCOM/ARQUITECTURA/Practica10/pila/pila.srcs/sim_1/new/test.vhd
